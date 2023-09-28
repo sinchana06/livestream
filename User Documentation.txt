@@ -1,0 +1,26 @@
+Setting Up and Using the App
+Installation
+
+Clone the repository to your local machine.
+Navigate to the app's directory in your terminal.
+Install the required dependencies by running npm install for the frontend and pip install -r requirements.txt for the backend.
+Start the backend server by running python app.py.
+Start the frontend development server by running npm start.
+Inputting the RTSP URL
+
+Launch the app in your web browser.
+On the app's interface, you'll find an input field where you can enter the RTSP URL of your livestream. Paste the URL into this field and click "Submit" or a similar button to load the livestream.
+Managing Overlays
+
+To add a custom overlay (e.g., text) on top of the livestream, go to the "Overlay Settings" section of the app.
+Enter the overlay content, X and Y positions for placement, and click the "Add Setting" button.
+To edit an existing overlay setting, click the "Edit" button next to the setting and update the content, positions, etc.
+To delete an overlay setting, click the "Delete" button next to the setting.
+Applying Overlays
+
+Once you have configured your overlay settings, click the "Apply Settings" button in the "Overlay Settings" section to apply the overlays to the livestream.
+The livestream with custom overlays will be displayed on the main screen.
+Interacting with the Livestream
+
+Use the built-in video controls (play, pause, volume) on the livestream player to interact with the livestream.
+You can also adjust the width and height of the video player as needed.

@@ -1,0 +1,32 @@
+Create Overlay Setting
+
+Endpoint: /api/overlay-settings
+Method: POST
+Description: Create a new overlay setting.
+Request Body: JSON object containing positionX, positionY, and content fields.
+Response: JSON object of the created overlay setting.
+Read All Overlay Settings
+
+Endpoint: /api/overlay-settings
+Method: GET
+Description: Retrieve all saved overlay settings.
+Response: JSON array containing all overlay settings.
+Read Single Overlay Setting
+
+Endpoint: /api/overlay-settings/:id
+Method: GET
+Description: Retrieve a single overlay setting by its ID.
+Response: JSON object of the requested overlay setting.
+Update Overlay Setting
+
+Endpoint: /api/overlay-settings/:id
+Method: PUT
+Description: Update an existing overlay setting by its ID.
+Request Body: JSON object containing fields to update (positionX, positionY, and/or content).
+Response: JSON object of the updated overlay setting.
+Delete Overlay Setting
+
+Endpoint: /api/overlay-settings/:id
+Method: DELETE
+Description: Delete an existing overlay setting by its ID.
+Response: JSON message confirming the deletion.
